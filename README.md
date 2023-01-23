@@ -1,12 +1,16 @@
-# Case técnico da BISO para Engenheiro de Software
+# Teste técnico da BISO para Engenheiro de Software 🚀
 
 ## Introdução:
 
-Seja bem-vindo ao case técnico da BISO para Engenheiro de Software! Aqui você será desafiado a resolver um problema que exigirá capacidade analítica, resolução de problemas e conhecimento sobre a base da computação. Será necessário conhecimento prévio de estruturas de dados, seu funcionamento e quais problemas elas resolvem.
+Seja bem-vindo ao teste técnico da BISO para Engenheiro de Software! 
 
-O case a princípio pode parecer simples, mas será que você chegará na melhor solução? (OBS: nem sempre o caminho mais simples é a melhor solução. Problemas complexos exigem soluções complexas.)
+Aqui você será desafiado a resolver um problema que exigirá capacidade analítica, resolução de problemas e conhecimento sobre a base da computação. Será necessário conhecimento prévio de estruturas de dados, seu funcionamento e quais problemas elas resolvem.
 
-O objetivo do case não é apenas sobre resolver o problema, mas sim encontrar a melhor solução pensado sempre em escala.
+O teste a princípio pode parecer simples, mas será que você consegue propor a melhor solução (**melhor solução = escala + viabilidade + funcional**)? (OBS: nem sempre o caminho mais simples é a melhor solução. Problemas complexos exigem soluções complexas.)
+
+O objetivo do teste não é apenas resolver o problema, mas sim encontrar a melhor solução.
+
+Para o teste não será exigido uma linguagem de programação específica. Fique a vontade para usar a mais familiar para você. A aqui na BISO entendemos que a linguagem de programação é apenas mais uma ferramenta, onde cada uma delas tem suas vantagens e desvantagens em frente aos problemas computacionais.
 
 ## Problema:
 
@@ -57,7 +61,7 @@ Saída esperada:
 
 ## Resultado final esperado:
 
-Após resolver o case, você deve enviar um e-mail para jonathan.raphael@biso.digital e breno.berman@biso.digital contendo as seguintes informações:
+Após resolver o teste, você deve enviar um e-mail para jonathan.raphael@biso.digital e breno.berman@biso.digital contendo as seguintes informações:
 
 ### Conteúdo e-mail:
 
@@ -73,4 +77,8 @@ Após resolver o case, você deve enviar um e-mail para jonathan.raphael@biso.di
 
 ### Explicação da solução:
 
-O objetivo aqui é que você explique o racional que usou para resolver o problema e o porque na sua opinião a solução que você propos é a mais adquada para esse cenário.
+O objetivo aqui, é que você explique o racional que usou para resolver o problema e, o porque na sua opinião a solução que você propos é a mais adquada para esse problema.
+
+## Agradecimentos:
+
+Obrigado por participar do processo de seleção da BISO! Desejamos boa sorte a você e até breve :) 🤙
