@@ -6,6 +6,8 @@ Seja bem-vindo ao case técnico da BISO para Engenheiro de Software! Aqui você 
 
 O case a princípio pode parecer simples, mas será que você chegará na melhor solução? (OBS: nem sempre o caminho mais simples é a melhor solução. Problemas complexos exigem soluções complexas.)
 
+O objetivo do case não é apenas sobre resolver o problema, mas sim encontrar a melhor solução pensado sempre em escala.
+
 ## Problema:
 
 A mediana de um conjunto de inteiros é o valor do ponto médio do conjunto de dados para o qual um número igual de inteiros é menor e maior que o valor. Para encontrar a mediana, você deve primeiro classificar seu conjunto de números inteiros em ordem não decrescente e, em seguida:
@@ -57,11 +59,18 @@ Saída esperada:
 
 Após resolver o case, você deve enviar um e-mail para jonathan.raphael@biso.digital e breno.berman@biso.digital contendo as seguintes informações:
 
-Conteúdo do repositório:
+### Conteúdo e-mail:
+
+- Nome
+- Link do repositório (público) onde foi colocado o código final para a solução do problema.
+
+### Conteúdo do repositório:
+
 - Código da solução;
 - Instruções de como executar a solução;
 - Arquivos para teste;
 - Explicaçao da solução.
 
-- Link do repositório (público) onde foi colocado o código final para a solução do problema.
-- 
+### Explicação da solução:
+
+O objetivo aqui é que você explique o racional que usou para resolver o problema e o porque na sua opinião a solução que você propos é a mais adquada para esse cenário.
