@@ -23,7 +23,7 @@ Você está trabalhando em uma plataforma de streaming de filmes e séries. Sua 
 
 ### Requisitos Técnicos
 1. Use **Python** como linguagem de programação.
-2. Utilize um banco de dados (por exemplo, PostgreSQL) para armazenar informações sobre filmes, usuários e avaliações.
+2. Utilize um banco de dados (por exemplo, SQLite, MongoDB) para armazenar informações sobre filmes, usuários e avaliações.
 3. Implemente algoritmos de recomendação (por exemplo, filtragem colaborativa ou baseada em conteúdo).
 4. Crie uma API usando **FastAPI** para expor os endpoints.
 5. Documente a API para que os usuários saibam como usá-la.
