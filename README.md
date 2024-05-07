@@ -1,83 +1,53 @@
-# Teste técnico da BISO para Engenheiro de Software 🚀
+# Case Técnico da BISO para Engenheiro(a) de Software Pleno 🚀
 
 ## Introdução:
 
-Seja bem-vindo ao teste técnico da BISO para Engenheiro de Software! 
+Seja bem-vindo ao case técnico da BISO para Engenheiro(a) de Software Pleno! 
 
-Aqui você será desafiado a resolver um problema que exigirá capacidade analítica, resolução de problemas e conhecimento sobre a base da computação. Será necessário conhecimento prévio de estruturas de dados, seu funcionamento e quais problemas elas resolvem.
+## Case Técnico: Sistema de Recomendação de Filmes
 
-O teste a princípio pode parecer simples, mas será que você consegue propor a melhor solução (**melhor solução = escala + viabilidade + funcional**)? (OBS: nem sempre o caminho mais simples é a melhor solução. Problemas complexos exigem soluções complexas.)
+### Descrição do Problema
+Você está trabalhando em uma plataforma de streaming de filmes e séries. Sua tarefa é desenvolver um sistema de recomendação de filmes para os usuários com base em seus históricos de visualização e preferências.
 
-O objetivo do teste não é apenas resolver o problema, mas sim encontrar a melhor solução.
+### Requisitos Funcionais
+1. O sistema deve ser capaz de recomendar filmes semelhantes aos que o usuário já assistiu.
+2. Os usuários devem poder avaliar filmes (por exemplo, com estrelas ou likes).
+3. A recomendação deve levar em consideração:
+    - Filmes assistidos pelo usuário.
+    - Avaliações dadas pelo usuário.
+    - Gênero dos filmes.
+    - Diretores e atores favoritos.
+4. A API deve oferecer os seguintes endpoints:
+    - `/filmes`: Retorna a lista de todos os filmes disponíveis.
+    - `/filmes/{usuario_id}/recomendacoes`: Retorna as recomendações personalizadas para o usuário com o ID especificado.
 
-Para o teste não será exigido uma linguagem de programação específica. Fique a vontade para usar a mais familiar para você. A aqui na BISO entendemos que a linguagem de programação é apenas mais uma ferramenta, onde cada uma delas tem suas vantagens e desvantagens em frente aos problemas computacionais.
+### Requisitos Técnicos
+1. Use **Python** como linguagem de programação.
+2. Utilize um banco de dados (por exemplo, PostgreSQL) para armazenar informações sobre filmes, usuários e avaliações.
+3. Implemente algoritmos de recomendação (por exemplo, filtragem colaborativa ou baseada em conteúdo).
+4. Crie uma API usando **FastAPI** para expor os endpoints.
+5. Documente a API para que os usuários saibam como usá-la.
 
-## Problema:
+### Critérios de Avaliação
+Seu case técnico será avaliado com base nos seguintes critérios:
+- **Qualidade do Código**: Estrutura, modularidade, boas práticas de programação.
+- **Funcionalidade**: O sistema de recomendação deve funcionar conforme especificado.
+- **Documentação**: A documentação da API deve ser clara e completa.
+- **Performance**: O sistema deve ser eficiente e escalável.
 
-A mediana de um conjunto de inteiros é o valor do ponto médio do conjunto de dados para o qual um número igual de inteiros é menor e maior que o valor. Para encontrar a mediana, você deve primeiro classificar seu conjunto de números inteiros em ordem não decrescente e, em seguida:
+## Instruções para envio do case técnico:
 
-- Se o seu conjunto contém um número ímpar de elementos, a mediana é o elemento do meio da amostra classificada. No conjunto classificado **{1, 2, 3}**, o 2 é a mediana.
+Após resolver o case, você deve enviar um e-mail para jonathan.raphael@biso.digital contendo as seguintes informações:
 
-- Se o seu conjunto contém um número par de elementos, a mediana é a média dos dois elementos do meio da amostra classificada. No conjunto classificado **{1, 2, 3, 4}**,  **2+3 / 2 = 2.5** é a mediana.
-
-Dado um fluxo de entrada de **N** inteiros, execute a seguinte tarefa para cada número inteiro da entrada:
-
-- Adicione o número inteiro a uma lista contínua de inteiros.
-- Encontre a mediana da lista atualizada (ou seja, para o primeiro elemento até o N elemento adicionado a lista).
-- Imprima a mediana atualizada em uma nova linha. O valor impresso deve ser um número de precisão dupla escalado para casas decimais (ou seja 12.4, formato).
-
-### Exemplo:
-
-**a = [7, 3, 5, 2]**
-
-| Lista de numeros atual | Mediana |
-| :-----: | :-----: |
-| [7] | 7.0 |
-| [3, 7] | 3+7 / 2 = 5.0 |
-| [3, 5, 7] | 5.0 |
-| [2, 3, 5, 7] |3+5 / 2 = 4.0 |
-
-**OBS:** Cada um dos valores medianos é armazenado em uma matriz e a matriz é retornada para a função principal imprimir.
-
-### Formato dos dados de entrada:
-- Deve ser um arquivo de texto, onde na primeira linha contém a quantidade de números inteiros a serem processados e, nas demais linhas contém o número inteiro a ser processado.
-
-Exemplo simples:
-
-| Aquivo de entrada.txt | Função |
-| :-----: | :-----: |
-| 3 | size = 3 |
-| 12 | lista de inteiros = [12, 4, 5] |
-| 4 | |
-| 5 | |
-
-Saída esperada:
-
-| Resultado |
-| :-----: |
-|12.0|
-|8.0|
-|5.0|
-
-## Resultado final esperado:
-
-Após resolver o teste, você deve enviar um e-mail para jonathan.raphael@biso.digital e breno.berman@biso.digital contendo as seguintes informações:
-
-### Conteúdo e-mail:
+### Conteúdo E-mail:
 
 - Nome
-- Link do repositório (público) onde foi colocado o código final para a solução do problema.
+- Link do repositório (público) onde foi colocado o código final da aplicação.
 
-### Conteúdo do repositório:
+### Conteúdo do Repositório:
 
-- Código da solução;
-- Instruções de como executar a solução;
-- Arquivos para teste;
-- Explicaçao da solução.
-
-### Explicação da solução:
-
-O objetivo aqui, é que você explique o racional que usou para resolver o problema e, o porque na sua opinião a solução que você propos é a mais adquada para esse problema.
+- Código da aplicação;
+- Documentação da aplicação.
 
 ## Agradecimentos:
 
